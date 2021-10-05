@@ -1,0 +1,35 @@
+@media (max-width: 480px) { 
+ 
+
+  .cont-nav{
+      flex-direction: column;
+      margin-top: 1.5rem;
+  }
+
+  .menu{
+      flex-direction: row;
+      
+  }
+
+  .cont-principal{
+      flex-direction: column-reverse;
+  }
+
+  .cont-principal .textos h1{
+      font-size: 3.5rem;
+  }
+
+  .cont-principal p span{
+      font-size: 2rem;
+  }
+
+  .cont-principal .imagen{
+    height: 50%;
+    width: 70%;
+  }
+
+  .textos button{
+      width: 40%;
+  }
+  
+}

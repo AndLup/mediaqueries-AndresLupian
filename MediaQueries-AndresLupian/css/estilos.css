@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Economica', sans-serif;
+    
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    background: #6441A5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(255, 255, 255);
+    z-index: 10;
+}
+
+.cont-nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: right;
+
+}
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: auto;
+    font-size: 1.5rem;
+    transition: transform .5s;
+    margin: 1rem;
+    text-align: center;
+    letter-spacing: .1rem;
+}
+
+.menu a:hover{
+    transform: scale(1.1);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    background: #6441A5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-principal{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+.textos h1{
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: -4px 4px 9px rgba(255,164,244,0.7);
+}
+
+.textos p{
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.textos button{
+    height: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 1rem;
+    padding: 5px 5px;
+    transition: transform .5s;
+}
+.textos button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 0 #7F00FF;
+}
+
+.imagen{
+    width: 45%;
+    height: 60%;
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+}
+
